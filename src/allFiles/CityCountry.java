@@ -16,6 +16,7 @@ public class CityCountry
 		//Tell user if the two cities belong to the same country or not.
 
 		//testable comment
+		//test2 
 			{
 				String city1 = JOptionPane.showInputDialog("What is the name of your favorite city?");
 				String country1 = JOptionPane.showInputDialog("Which country is your favorite city located in?");
