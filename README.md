@@ -22,7 +22,6 @@ This course involves the following subcategories:
           Chapter Sections 5.5 – 5.6
   Week 8: One-dimensional Arrays, Math.random
           Chapter Sections 7.1 – 7.6
-SPRING BREAK
   Week 9: Two-dimensional Arrays
           Chapter Sections 7.8, 7.9, 7.11, 7.14
   Week 10: Parallel Arrays Files
@@ -35,4 +34,3 @@ SPRING BREAK
           Chapter Sections 6.5 – 6.8
   Week 14: Inheritance, GUI, UML
           Chapter 10
-  FINAL EXAM
