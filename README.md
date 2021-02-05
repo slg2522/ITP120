@@ -1,5 +1,5 @@
 # ITP120
-practice problems for java I
+Java I
 
 Textbook: Starting out with Java, From Control Structures through Objects. 7th Edition, by Tony Gaddis. ISBN-13: 978-0134802213.
 
