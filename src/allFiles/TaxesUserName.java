@@ -1,7 +1,7 @@
 package allFiles;
 
-import java.util.Scanner;
-import java.util.Date;
+import java.util.Scanner;						//imports the Scanner utility
+import java.util.Date;							//import the Date utility
 
 public class TaxesUserName
 {
@@ -13,7 +13,7 @@ public class TaxesUserName
 		 *with comma separated floating value with 2 decimal point accuracy" on "current date".  */
 	
 	//creates a new scanner named scanner2
-	Scanner scanner2 = new Scanner(System.in);
+	Scanner scanner2 = new Scanner(System.in);					//study for exam: create a new Scanner
 	
 	//intakes user name input from the user
 	System.out.println("Enter your User Name: ");
@@ -32,8 +32,8 @@ public class TaxesUserName
 	//System.out.println(UserName + " earns " + salary + " and paid taxes in the amount of " + tax + " on " + todayDate + ".");
 	
 	//print statement. see formatting on: https://www.baeldung.com/java-printstream-printf
-	System.out.printf("%25s", UserName);
-	System.out.print(" earns $");
+	System.out.printf("%25s", UserName);						//puts 25 spaces before the string
+	System.out.print(" earns $");								//$ before the number (hack) and don't go to the next line
 	System.out.printf("%,.2f", salary);
 	System.out.print(" and paid taxes in the amount of $");
 	System.out.printf("%,.2f", tax);
