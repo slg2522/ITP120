@@ -1,6 +1,6 @@
 package allFiles;
 
-public class TimeOfDay
+public class TimeDay
 {
 	public static void main(String[] args)
 	{
