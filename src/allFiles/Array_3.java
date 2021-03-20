@@ -19,6 +19,7 @@ Display the outcome of the testing and the grid.
 
 import java.util.Scanner;
 
+
 public class Array_3
 {
 	private static Scanner keyboard = new Scanner (System.in);
@@ -47,13 +48,13 @@ public class Array_3
 			{
 				for (j = 0; j < grid[0].length; j++)
 				{
+					//Asks the user to enter nine numbers
 					System.out.println("Enter an integer between 1 and 9. Do not repeat values.");
 					grid[i][j] = keyboard.nextInt();
 				}
 			}
 			return grid;
-			//prints to check
-			//System.out.println(grid [i-1] [j-1]);
+			
 		}
 		
 		/**method checks totals for each set of three*/
