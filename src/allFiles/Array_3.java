@@ -2,8 +2,8 @@ package allFiles;
 
 /**
  * @author Sabrina Groves
- * @version 1.0
- * @since 3/17/2021
+ * @version 2.0
+ * @since 3/22/2021
  * 
 In this assignment, you will be imitating the Lo She magic square functioning. 
 Lo Shu is 3*3 grid square. It contains the digits 1 through 9 in them.
@@ -31,6 +31,12 @@ public class Array_3
 		
 		//tries the solution
 		ifCorrect(square);
+		
+		//prints the grid
+		System.out.println("Your Lo Shu Square: ");
+		System.out.println(square[0][0] + "\t" + square[0][1] + "\t" + square[0][2]);
+		System.out.println(square[1][0] + "\t" + square[1][1] + "\t" + square[1][2]);
+		System.out.println(square[2][0] + "\t" + square[2][1] + "\t" + square[2][2]);
 	}
 		
 		/**method defines and assigns values to array*/
